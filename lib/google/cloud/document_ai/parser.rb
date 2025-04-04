@@ -1,12 +1,12 @@
 # frozen_string_literal: true
 
-require 'json'
-require_relative 'parser/version'
-require_relative 'parser/entity'
-require_relative 'parser/line_item'
-require_relative 'parser/document'
-require_relative 'parser/processors/base_processor'
-require_relative 'parser/processors/expense_parser'
+require "json"
+require_relative "parser/version"
+require_relative "parser/entity"
+require_relative "parser/line_item"
+require_relative "parser/document"
+require_relative "parser/processors/base_processor"
+require_relative "parser/processors/expense_parser"
 
 module Google
   module Cloud
@@ -54,7 +54,7 @@ module Google
           when Hash
             input # Assume it's already parsed
           else
-            raise ArgumentError, "Input must be a JSON String or a Hash"
+            raise ArgumentError, "Input must be a JSON String or a Hash, was #{input.class}"
           end
         end
       end
