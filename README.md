@@ -1,7 +1,7 @@
 # Google Cloud Document AI Parser
 
 [![Gem Version](https://badge.fury.io/rb/google-cloud-document_ai-parser.svg)](https://badge.fury.io/rb/google-cloud-document_ai-parser)
-[![Build Status](https://github.com/czekaj/google-cloud-document_ai-parser/actions/workflows/ruby.yml/badge.svg)](https://github.com/czekaj/google-cloud-document_ai-parser/actions/workflows/ruby.yml)
+[![Build Status](https://github.com/czekaj/google-cloud-document_ai-parser/actions/workflows/main.yml/badge.svg)](https://github.com/czekaj/google-cloud-document_ai-parser/actions/workflows/main.yml)
 [![Maintainability](https://api.codeclimate.com/v1/badges/YOUR_CODECLIMATE_BADGE_ID/maintainability)](https://codeclimate.com/github/czekaj/google-cloud-document_ai-parser/maintainability)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
