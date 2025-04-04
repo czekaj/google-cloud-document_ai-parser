@@ -7,7 +7,8 @@
 
 Parses the JSON response from Google Cloud Document AI processors into easy-to-use Ruby objects.
 
-Navigating the raw JSON structure returned by Document AI can be cumbersome. This gem simplifies interaction by providing structured objects (`Document`, `Entity`, `LineItem`) with helper methods for accessing common fields and normalized values.
+Navigating the raw JSON structure returned by Document AI can be cumbersome (official docs: https://cloud.google.com/document-ai/docs/handle-response). 
+This gem simplifies interaction by providing structured objects (`Document`, `Entity`, `LineItem`) with helper methods for accessing common fields and normalized values.
 
 Initially built for the **Expense Parser**, the gem is designed to be pluggable, allowing easy extension for other Document AI processor types in the future.
 
