@@ -1,8 +1,8 @@
 # Google Cloud Document AI Parser
 
 [![Gem Version](https://badge.fury.io/rb/google-cloud-document_ai-parser.svg)](https://badge.fury.io/rb/google-cloud-document_ai-parser)
-[![Build Status](https://github.com/YOUR_GITHUB_USERNAME/google-cloud-document_ai-parser/actions/workflows/ruby.yml/badge.svg)](https://github.com/YOUR_GITHUB_USERNAME/google-cloud-document_ai-parser/actions/workflows/ruby.yml)
-[![Maintainability](https://api.codeclimate.com/v1/badges/YOUR_CODECLIMATE_BADGE_ID/maintainability)](https://codeclimate.com/github/YOUR_GITHUB_USERNAME/google-cloud-document_ai-parser/maintainability)
+[![Build Status](https://github.com/czekaj/google-cloud-document_ai-parser/actions/workflows/ruby.yml/badge.svg)](https://github.com/czekaj/google-cloud-document_ai-parser/actions/workflows/ruby.yml)
+[![Maintainability](https://api.codeclimate.com/v1/badges/YOUR_CODECLIMATE_BADGE_ID/maintainability)](https://codeclimate.com/github/czekaj/google-cloud-document_ai-parser/maintainability)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
 Parses the JSON response from Google Cloud Document AI processors into easy-to-use Ruby objects.
@@ -110,9 +110,9 @@ To install this gem onto your local machine, run `bundle exec rake install`.
 
 ## Contributing
 
-Bug reports and pull requests are welcome on GitHub at [https://github.com/YOUR_GITHUB_USERNAME/google-cloud-document_ai-parser](https://github.com/YOUR_GITHUB_USERNAME/google-cloud-document_ai-parser). This project is intended to be a safe, welcoming space for collaboration, and contributors are expected to adhere to the [code of conduct](https://github.com/YOUR_GITHUB_USERNAME/google-cloud-document_ai-parser/blob/main/CODE_OF_CONDUCT.md).
+Bug reports and pull requests are welcome on GitHub at [https://github.com/czekaj/google-cloud-document_ai-parser](https://github.com/czekaj/google-cloud-document_ai-parser). This project is intended to be a safe, welcoming space for collaboration, and contributors are expected to adhere to the [code of conduct](https://github.com/czekaj/google-cloud-document_ai-parser/blob/main/CODE_OF_CONDUCT.md).
 
-1.  Fork it (<https://github.com/YOUR_GITHUB_USERNAME/google-cloud-document_ai-parser/fork>)
+1.  Fork it (<https://github.com/czekaj/google-cloud-document_ai-parser/fork>)
 2.  Create your feature branch (`git checkout -b my-new-feature`)
 3.  Commit your changes (`git commit -am 'Add some feature'`)
 4.  Push to the branch (`git push origin my-new-feature`)
@@ -126,4 +126,4 @@ The gem is available as open source under the terms of the [MIT License](https:/
 
 ## Code of Conduct
 
-Everyone interacting in the Google::Cloud::DocumentAI::Parser project's codebases, issue trackers, chat rooms and mailing lists is expected to follow the [code of conduct](https://github.com/YOUR_GITHUB_USERNAME/google-cloud-document_ai-parser/blob/main/CODE_OF_CONDUCT.md).
+Everyone interacting in the Google::Cloud::DocumentAI::Parser project's codebases, issue trackers, chat rooms and mailing lists is expected to follow the [code of conduct](https://github.com/czekaj/google-cloud-document_ai-parser/blob/main/CODE_OF_CONDUCT.md).
