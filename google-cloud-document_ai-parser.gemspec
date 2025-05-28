@@ -1,24 +1,24 @@
 # frozen_string_literal: true
 
-require_relative "lib/google/cloud/document_ai/parser/version"
+require_relative 'lib/google/cloud/document_ai/parser/version'
 
 Gem::Specification.new do |spec|
-  spec.name = "google-cloud-document_ai-parser"
+  spec.name = 'google-cloud-document_ai-parser'
   spec.version = Google::Cloud::DocumentAi::Parser::VERSION
-  spec.authors = ["Lucas Czekaj"]
-  spec.email = ["lukasz@czekaj.us"]
+  spec.authors = ['Lucas Czekaj']
+  spec.email = ['lukasz@czekaj.us']
 
-  spec.summary = "Google Cloud Document AI Processor Parser"
-  spec.description = "Google Cloud Document AI Processor Parser"
-  spec.homepage = "https://github.com/czekaj/google-cloud-document_ai-parser"
-  spec.license = "MIT"
-  spec.required_ruby_version = ">= 3.1.0"
+  spec.summary = 'Google Cloud Document AI Processor Parser'
+  spec.description = 'Google Cloud Document AI Processor Parser'
+  spec.homepage = 'https://github.com/czekaj/google-cloud-document_ai-parser'
+  spec.license = 'MIT'
+  spec.required_ruby_version = '>= 3.1.0'
 
-  spec.metadata["allowed_push_host"] = "TODO: Set to your gem server 'https://example.com'"
+  spec.metadata['allowed_push_host'] = "TODO: Set to your gem server 'https://example.com'"
 
-  spec.metadata["homepage_uri"] = spec.homepage
-  spec.metadata["source_code_uri"] = "https://github.com/czekaj/google-cloud-document_ai-parser"
-  spec.metadata["changelog_uri"] = "https://github.com/czekaj/google-cloud-document_ai-parser/blob/main/CHANGELOG.md"
+  spec.metadata['homepage_uri'] = spec.homepage
+  spec.metadata['source_code_uri'] = 'https://github.com/czekaj/google-cloud-document_ai-parser'
+  spec.metadata['changelog_uri'] = 'https://github.com/czekaj/google-cloud-document_ai-parser/blob/main/CHANGELOG.md'
 
   # Specify which files should be added to the gem when it is released.
   # The `git ls-files -z` loads the files in the RubyGem that have been added into git.
@@ -29,14 +29,14 @@ Gem::Specification.new do |spec|
         f.start_with?(*%w[bin/ test/ spec/ features/ .git .github appveyor Gemfile])
     end
   end
-  spec.bindir = "exe"
+  spec.bindir = 'exe'
   spec.executables = spec.files.grep(%r{\Aexe/}) { |f| File.basename(f) }
-  spec.require_paths = ["lib"]
+  spec.require_paths = ['lib']
 
   # Uncomment to register a new dependency of your gem
   # spec.add_dependency "example-gem", "~> 1.0"
   #
-  spec.add_dependency "bigdecimal"
+  spec.add_dependency 'bigdecimal'
 
   # For more information and examples about making a new gem, check out our
   # guide at: https://bundler.io/guides/creating_gem.html

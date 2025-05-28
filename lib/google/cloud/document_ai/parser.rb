@@ -1,12 +1,12 @@
 # frozen_string_literal: true
 
-require "json"
-require_relative "parser/version"
-require_relative "parser/entity"
-require_relative "parser/line_item"
-require_relative "parser/document"
-require_relative "parser/processors/base_processor"
-require_relative "parser/processors/expense_parser"
+require 'json'
+require_relative 'parser/version'
+require_relative 'parser/entity'
+require_relative 'parser/line_item'
+require_relative 'parser/document'
+require_relative 'parser/processors/base_processor'
+require_relative 'parser/processors/expense_parser'
 
 module Google
   module Cloud
@@ -40,8 +40,6 @@ module Google
           processor = processor_class.new(raw_data)
           processor.parse
         end
-
-        private
 
         def self.parse_input(input)
           case input

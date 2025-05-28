@@ -29,14 +29,14 @@ module Google
               when :'line_item/quantity'
                 # Attempt to parse quantity as Integer or Float
                 @quantity = begin
-                              Integer(entity.text)
-                            rescue ArgumentError
-                              begin
-                                Float(entity.text)
-                              rescue ArgumentError
-                                entity.text # Fallback to raw text
-                              end
-                            end
+                  Integer(entity.text)
+                rescue ArgumentError
+                  begin
+                    Float(entity.text)
+                  rescue ArgumentError
+                    entity.text # Fallback to raw text
+                  end
+                end
               when :'line_item/unit'
                 @unit = entity.text
               when :'line_item/unit_price'

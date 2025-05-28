@@ -25,7 +25,7 @@ module Google
                 else
                   # It's a regular entity
                   entities << Entity.new(entity_hash)
-                  # Note: We could optionally exclude line_item/* properties if desired,
+                  # NOTE: We could optionally exclude line_item/* properties if desired,
                   # but currently Entity doesn't parse sub-types, so they act like normal entities.
                   # If we wanted strict separation, we'd check for 'line_item/' prefix here.
                 end
